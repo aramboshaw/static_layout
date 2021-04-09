@@ -230,7 +230,7 @@ video  {
     padding-top: 20px;
     width: 100%;
     position: relative;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
     background-color: #efefef;
     text-align: center;
 }
@@ -249,7 +249,6 @@ video  {
     position: relative;
     display: flex;
     flex-direction: row;
-    padding: 50px;
     justify-content: center;
 }
 
