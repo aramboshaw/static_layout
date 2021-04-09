@@ -1,0 +1,410 @@
+html {
+    width: 100%;
+}
+
+
+#caresBar {
+    width: 100%;
+    height: 45px;
+    background-color: #fdb715;
+    font-size: 8px;    
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    z-index: 4;
+}
+
+#caresButton {
+    width: auto;
+    height: auto;
+    background-color: #434345;
+    color: #ffffff;
+    font-family:'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#topNavBar {
+    width: 100%;
+    height: 70px;
+    display:flex;
+    margin-top: 37px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    position: fixed;
+    z-index: 4;
+}
+
+
+#elevenFiftyLinkText {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    z-index: 4;
+}
+
+
+#linkCluster {
+    display:flex;
+    width: 950px;
+    background-color: rgb(36, 36, 36);
+    justify-content: flex-end;
+    align-items: center;
+    color:white;
+    z-index: 4;
+}
+
+ul > li{
+    list-style-type: none;
+    display: inline-block;
+    z-index: 4;
+    
+}
+
+a.linkInCluster, .strayLink {
+    font-size: 18x;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 4;
+    
+}
+
+
+#elevenFiftyLink {
+    width: 350px;
+    height: 70px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    z-index: 4;
+}
+
+#logoLink {
+    background-color: #e33e42;
+    width: 70px;
+    height: 70px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 5;
+}
+
+
+#efaShield {
+    width: 70px;
+    height: 65px;
+    z-index: 5;
+}
+
+#meetingLink {
+    width: 230px;
+    height: 70px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #348db9;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    padding-right: 7px;
+    z-index: 4;
+    transition: background-color .5s;
+}
+
+
+#applyLink {
+    width: 150px;
+    height: 70px;
+    font-size: 16px;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #e33e42;
+    z-index: 4;
+    transition: background-color .5s;
+}
+
+#videoWrapper {
+    position: relative;
+}
+
+
+video  { 
+    height: auto;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+}
+
+.overlayWrapper {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 3;
+    left: 250px;
+    top: 150px;
+}
+
+#overlayTopBar {
+    
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;  
+}
+
+#overlayTopBar h1 {
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#introcourselink {
+    width: auto;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+
+#introcoursebox {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    background-color: #e33e42;
+    font-weight: 600;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    transition: background-color .5s;
+}
+
+.wrapperOne, .middleSection {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.wrapperTwo {
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+    padding-right: 10px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.wrapperTwo h1{
+    color: #348db9;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#wrapperThree {
+    width: 100%;
+    height: 400px;
+    background-color: #efefef;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+#leftCard, #middleCard, #rightCard {
+    width: 320px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+    transition: background-color .5s;
+}
+
+.cardInterior {
+    text-align: left;
+    color: black;
+    position: relative;
+    margin: auto;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0 20px 20px 20px;
+}
+    
+
+.cardInterior h2{
+    font-size: 34px;
+}
+
+#leftCardBar, #middleCardBar, #rightCardBar {
+    width: 360px;
+    height: 50px;
+    margin-top: 150px;
+    background-color: #e33e42;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    color: white;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#middleCard {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cardAnchor {
+    text-decoration: none;
+}
+
+#leftCardBar, #middleCardBar {
+    top: 60px;
+    font-size: 20px;
+    transition: background-color .5s;
+}
+
+#rightCardBar {
+    top: 50px;
+    font-size: 20px;
+    transition: background-color .5s;
+}
+
+#techWorld {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    left: 50px;
+}
+
+#shieldWrapper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-right: 50px;
+}
+
+#textWrapper {
+    width: 700px;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: left;
+
+}
+
+#textWrapper h2 {
+    color: #348db9;
+    font-size: 32px;
+}
+
+#textWrapper p {
+    font-size: 22px;
+}
+
+#leftCard:hover {
+    width: 320px;
+    height: 50;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+#middleCard:hover {
+    width: 320px;
+    height: 50;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+#rightCard:hover {
+    width: 320px;
+    height: 50;
+    background-color:rgba(0, 0, 0, 0.2);
+    
+}
+
+#meetingLink:hover {
+background-color: rgba(163, 200, 245, 0.801);
+}
+
+#applyLink:hover {
+    background-color: rgb(168, 10, 10);
+
+}
+
+#introcoursebox:hover {
+    background-color: rgba(168, 10, 10, 0.993);
+    
+}
+
+#chevronDown {
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    position: relative;
+    left: 450px;
+    top: 150px;
+    transition: fill 1s;
+
+}
+
+#fontDiv {
+    width: 70%;
+    height: 80px;
+    z-index: 4;
+    position: relative;
+}
+
+#chevronLink:hover {
+    box-shadow: (10px 10px 10px 1px crimson);
+}
